@@ -3,28 +3,30 @@
 >
   <div class="z-30 relative h-full flex flex-col">
     <header>
-      <h2 class="text-white pt-40 text-[40px] font-medium">Model Y</h2>
-      <p class="text-white text-sm">Lease starting at $399/mo*</p>
+      <h2 class="text-black pt-40 text-[40px] font-medium">Model Y</h2>
+      <p class="text-black text-sm underline">Lease starting at $399/mo*</p>
     </header>
     <footer class="flex flex-col flex-grow justify-end pb-20">
-      <div>
+      <div class="flex gap-x-4 mx-auto">
         <a
           class="border-[3px] border-white bg-white/5 backdrop-blur-3xl text-sm rounded font=medium text-white px-12 py-2 inline-block hover:bg-white
 			hover:text-black transition-colors"
           href="#"
         >
-          Prueba de conducción
+          Order now
+        </a>
+        <a
+          class="bg-white text-sm rounded font=medium text-black px-12 py-2 inline-block hover:bg-white
+    hover:text-black transition-colors"
+          href="#"
+        >
+          Demo Drive
         </a>
       </div>
     </footer>
   </div>
 
   <div class="absolute top-0 bottom-0 h-full w-full z-10">
-    <video
-      class="object-cover h-full w-full object-center"
-      autoplay
-      muted
-      loop
-      src="/video.webm"></video>
+    <img class="object-cover h-full w-full object-center" src="/model-y.avif" />
   </div>
 </section>
